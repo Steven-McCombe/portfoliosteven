@@ -1,6 +1,6 @@
 import React from 'react';
 import "../styles/About.css"
-import backgroundImage from "../Assets/Images/Profile_Picture.jpg"
+import backgroundImage from "../assets/images/profilepicture.jpg"
 
 export default function About() {
   const backgroundStyles = {

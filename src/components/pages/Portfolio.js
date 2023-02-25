@@ -3,44 +3,50 @@ import Card from "../Card";
 
 const projects = [
   {
+  id: 1,
   name: 'FLTCHK',
-  description: 'Flight Status Checker',
-  image: '../Assets/Images/Profile_Picture.jpg',
+  description: 'Flight Status Checker, status board that presents the user with real time flight status information for the ten most popular airports in the United States.',
+  image: "https://source.unsplash.com/0IuDrKgK1Fo",
   repo: 'https://github.com/Steven-McCombe/FLTCHK-TRAVEL-TRACKER',
   live: 'https://samvillafana.github.io/FLTCHK-TRAVEL-TRACKER/#reload'
   },
   {
+  id: 2,
   name: 'Phantom Plates',
-  description: 'Full Stack - Home Kitchens and Cooked Goods',
-  image: '../Assets/Images/',
+  description: 'Phantom Plates is a platform that connects home cooks with locals who are looking to discover and purchase home-cooked meals and baked goods.',
+  image: "https://source.unsplash.com/cc0Gg3BegjE",
   repo: 'https://github.com/Steven-McCombe/Phantom-Plates',
   live: 'https://peaceful-plains-78578.herokuapp.com/'
   },
   {
+  id: 3,
   name: 'TechTalk',
-  description: 'Full Stack - Tech Blogging Site',
-  image: '../Assets/Images/',
-  repo: 'https://github.com/Steven-McCombe/TechTalk',
+  description: 'TechTalk Blog! This is a place where tech enthusiasts can come together to share their ideas and knowledge.',
+  image: "https://source.unsplash.com/mk7D-4UCfmg",
+  repo: 'https://github.com/Steven-McCombe/techtalk',
   live: 'https://powerful-stream-84174.herokuapp.com/'
   },
   {
+  id: 4,
   name: 'World Cup Quiz',
-  description: 'Test your Knowledge on the World Cup',
-  image: '../Assets/Images/',
+  description: 'Fun interactive quiz to test your knowledge on world cup history, see if you can make it to the top of the hiscores',
+  image: "https://source.unsplash.com/oW8ph9u07uo",
   repo: 'https://github.com/Steven-McCombe/world-cup-quiz',
   live: 'https://steven-mccombe.github.io/world-cup-quiz/'
   },
   {
+  id: 5,
   name: 'Weather Report',
-  description: 'Check the weekly forecast in your area',
-  image: '../Assets/Images/',
+  description: 'Weather forecasting application that takes in a users search criteria for a particular city and returns the current/forecasted weather conditions. ',
+  image: "https://source.unsplash.com/SuJp8ZpkubI",
   repo: 'https://github.com/Steven-McCombe/Weather-Report-App',
   live: 'https://steven-mccombe.github.io/Weather-Report-App/'
   },
   {
+  id: 6,
   name: 'PWA Text Editor',
-  description: 'Progressive Web App - Text Editor',
-  image: '../Assets/Images/',
+  description: 'This is a browser-based text editor that functions as a single-page application and as a progressive web app (PWA).',
+  image: 'https://source.unsplash.com/5VM5SHrs_E8',
   repo: 'https://github.com/Steven-McCombe/PWA_Text_Editor',
   live: 'https://lit-coast-23795.herokuapp.com/'
   },
@@ -49,6 +55,7 @@ const projects = [
 export default function Portfolio() {
   return (
     <div className='container'>
+      
       <Card projects={projects} />
       </div>
   )
