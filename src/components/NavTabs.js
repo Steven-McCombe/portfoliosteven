@@ -5,7 +5,7 @@ import "./styles/Theme.css"
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <div className="nav nav-tabs justify-content-between bg-dark">
+    <header className="nav nav-tabs justify-content-between bg-dark">
       <h5 href="#">Steven McCombe</h5>
     <ul className="nav nav-tabs justify-content-end bg-dark ">
       
@@ -51,7 +51,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
         </li>
     </ul>
-    </div>
+    </header>
     
   );
 }
