@@ -2,20 +2,18 @@ import React from 'react';
 
 export default function Home() {
   return (
-    <div>
-      <h1>Home Page</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
+    <div id="hero" className="hero route bg-image">
+    <div className="overlay-itro"></div>
+    <div className="hero-content display-table">
+      <div className="table-cell">
+        <div className="container">
+          <p className="display-6 color-d">Hello, world!</p>
+          <h1 className="hero-title mb-4">I am Steven McCombe</h1>
+          <p className="hero-subtitle"><span className="typed">Designer, Developer, Freelancer, Photographer</span></p>
+          <p className="pt-3"><a className="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p>
+        </div>
+      </div>
     </div>
+  </div>
   );
 }
