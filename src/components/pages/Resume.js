@@ -5,14 +5,12 @@ import File from "../assets/STEVEN_MCCOMBE_RESUME2023.pdf";
 import { Document, Page, pdfjs } from "react-pdf";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-const Link =
-  "https://raw.githubusercontent.com/Steven-McCombe/portfoliosteven/main/src/components/assets/STEVEN_MCCOMBE_RESUME2023.pdf";
 
 export default function Resume() {
 
   return (
     <div>
-        <Row className ="justify-content-center relative m-3">
+        <Row className ="justify-content-center m-3">
           <Button
             variant="light"
             href={File}
@@ -22,9 +20,9 @@ export default function Resume() {
             Download Resume
           </Button>
         </Row>
-      <Container fluid className=" m-3">
+      <Container fluid className=" m-3 mb-0" >
         <Row >
-          <Document file={Link} className="d-flex justify-content-center">
+          <Document file= {File} className="d-flex justify-content-center">
             <Page pageNumber={1} />
           </Document>
         </Row>
