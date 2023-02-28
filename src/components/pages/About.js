@@ -1,7 +1,6 @@
 import React from 'react';
 import "../styles/About.css"
-import backgroundImage from "../assets/images/profilepicture.jpg"
-
+import backgroundImage from "../assets/images/profpic.png"
 export default function About() {
   const backgroundStyles = {
     backgroundImage: `url(${backgroundImage})`
@@ -18,6 +17,7 @@ export default function About() {
         </div>
       </div>
     </div>
-  </div>
+
+    </div>
   );
 }

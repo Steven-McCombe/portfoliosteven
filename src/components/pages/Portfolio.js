@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from "../Card";
+import Footer from "../Footer"
 
 const projects = [
   {
@@ -54,10 +55,12 @@ const projects = [
 
 export default function Portfolio() {
   return (
+    <div>
     <div className='container'>
       <h1 className='color-w text-center m-3'>My Work</h1>
       <Card projects={projects} />
       </div>
+    </div>
   )
 }
   
