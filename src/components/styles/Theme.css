@@ -8,6 +8,10 @@
 
 }
 
+h1 {
+    color: White;
+}
+
 h5 {
     color: White;
     margin: 5px;
@@ -18,3 +22,14 @@ h5 {
 height: 25rem;
 }
 
+.form {
+    margin: 20px;
+  }
+  
+  .form input {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+  }
+  

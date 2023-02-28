@@ -1,9 +1,12 @@
 import React from 'react';
-
+import Form from "../Form"
+import {Container } from "react-bootstrap"
 export default function Contact() {
   return (
-    <div className= 'container bg-dark'>
-      <h1 className='color-w'>Contact Page</h1>
-    </div>
+
+    <Container>
+      
+      <Form />
+      </Container>
   );
 }

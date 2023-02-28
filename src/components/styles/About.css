@@ -24,16 +24,7 @@
   position: absolute;
 }
 
-.hero .overlay-itro {
-  background-color: rgba(0, 0, 0, 0.9);
-  position: absolute;
-  top: 0;
-  left: 0px;
-  padding: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0.9;
-}
+
 
 .hero .hero-title {
   color: #fff;
