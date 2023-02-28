@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cb58aa51.css",
+    "main.js": "/static/js/main.760baef2.js",
+    "static/media/STEVEN_MCCOMBE_RESUME2023.pdf": "/static/media/STEVEN_MCCOMBE_RESUME2023.88c9a940cfa2768bb220.pdf",
+    "static/media/profilepicture.jpg": "/static/media/profilepicture.8617292e42621bea125b.jpg",
+    "index.html": "/index.html",
+    "main.cb58aa51.css.map": "/static/css/main.cb58aa51.css.map",
+    "main.760baef2.js.map": "/static/js/main.760baef2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb58aa51.css",
+    "static/js/main.760baef2.js"
+  ]
+}
