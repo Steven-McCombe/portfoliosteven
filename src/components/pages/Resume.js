@@ -10,6 +10,7 @@ export default function Resume() {
 
   return (
     <div>
+      <h1 className = "text-center mt-2">Resume</h1>
         <Row className ="justify-content-center m-3">
           <Button
             variant="light"
