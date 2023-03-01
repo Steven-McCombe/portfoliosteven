@@ -1,15 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.cb58aa51.css",
-    "main.js": "/static/js/main.760baef2.js",
-    "static/media/STEVEN_MCCOMBE_RESUME2023.pdf": "/static/media/STEVEN_MCCOMBE_RESUME2023.88c9a940cfa2768bb220.pdf",
-    "static/media/profilepicture.jpg": "/static/media/profilepicture.8617292e42621bea125b.jpg",
-    "index.html": "/index.html",
-    "main.cb58aa51.css.map": "/static/css/main.cb58aa51.css.map",
-    "main.760baef2.js.map": "/static/js/main.760baef2.js.map"
+    "main.css": "/portfoliosteven/static/css/main.09d68278.css",
+    "main.js": "/portfoliosteven/static/js/main.9f6e8a0b.js",
+    "static/media/fa-solid-900.ttf": "/portfoliosteven/static/media/fa-solid-900.2877d54f94f30c5d563c.ttf",
+    "static/media/profilepicture.png": "/portfoliosteven/static/media/profilepicture.0bb307af657bdfc3b990.png",
+    "static/media/fa-brands-400.ttf": "/portfoliosteven/static/media/fa-brands-400.13e40630e5866f777de8.ttf",
+    "static/media/fa-solid-900.woff2": "/portfoliosteven/static/media/fa-solid-900.bdb9e23299f9d1320a8b.woff2",
+    "static/media/STEVEN_MCCOMBE_RESUME2023.pdf": "/portfoliosteven/static/media/STEVEN_MCCOMBE_RESUME2023.88c9a940cfa2768bb220.pdf",
+    "static/media/fa-brands-400.woff2": "/portfoliosteven/static/media/fa-brands-400.7be2266f1be21c44ecd4.woff2",
+    "static/media/fa-regular-400.ttf": "/portfoliosteven/static/media/fa-regular-400.146404900f7550a9719d.ttf",
+    "static/media/fa-regular-400.woff2": "/portfoliosteven/static/media/fa-regular-400.8bedd7cfa43a6c358cdd.woff2",
+    "static/media/fa-v4compatibility.ttf": "/portfoliosteven/static/media/fa-v4compatibility.6c0a7b774ffa1cf0a059.ttf",
+    "static/media/fa-v4compatibility.woff2": "/portfoliosteven/static/media/fa-v4compatibility.497d535001197a9c5b38.woff2",
+    "index.html": "/portfoliosteven/index.html",
+    "main.09d68278.css.map": "/portfoliosteven/static/css/main.09d68278.css.map",
+    "main.9f6e8a0b.js.map": "/portfoliosteven/static/js/main.9f6e8a0b.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb58aa51.css",
-    "static/js/main.760baef2.js"
+    "static/css/main.09d68278.css",
+    "static/js/main.9f6e8a0b.js"
   ]
 }
