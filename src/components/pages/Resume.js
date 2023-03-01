@@ -11,6 +11,18 @@ export default function Resume() {
   return (
     <div>
       <h1 className = "text-center mt-2">Resume</h1>
+        <p className = "text-white text-center">Proficient in:</p>
+      <ul className="text-white text-center list-unstyled">
+        <li>Javascript</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>MYSQL</li>
+        <li>MongoDB</li>
+        <li>APIs</li>
+        <li>Express</li>
+        <li>Progressive Web Applications</li>
+        <li>React</li>
+     </ul>
         <Row className ="justify-content-center m-3">
           <Button
             variant="light"
