@@ -4,8 +4,8 @@ import { MDBFooter, MDBIcon } from 'mdb-react-ui-kit';
 
 function Footer() {
   return (
-<MDBFooter bgColor='dark' className='text-center text-lg-start '>
-      <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
+<MDBFooter bgColor='dark' className='text-center text-lg-start border-top w-100'>
+      <section className='d-flex justify-content-end p-4 border-bottom'>
         <div className='me-5 d-none d-lg-block'>
           <span className = "color-w" >Connect with me on social networks:</span>
         </div>

@@ -50,16 +50,16 @@ function FormHandler() {
 
   return (
       <Container>
-          <h1>Contact Me</h1>
+          <h1 className="text-center m-3">Contact Me</h1>
       <Form className="form">
-        <input className='bg-dark rounded color-w p-1'
+        <input className='bg-light rounded color-w p-1'
           value={email}
           name="email"
           onChange={handleInputChange}
           type="email"
           placeholder="Email"
         />
-        <input className='bg-dark rounded color-w p-1'
+        <input className='bg-light rounded color-w p-1'
           value={userName}
           name="userName"
           onChange={handleInputChange}
@@ -67,7 +67,7 @@ function FormHandler() {
           placeholder="Name"
               />
         <div className = "d-flex flex-column">
-        <textarea className='my-3 bg-dark rounded color-w p-1'
+        <textarea className='my-3 bg-light rounded color-w p-1'
           value={Message}
           name="Message"
           onChange={handleInputChange}

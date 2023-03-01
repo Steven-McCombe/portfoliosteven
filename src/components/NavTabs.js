@@ -1,60 +1,58 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./styles/Theme.css"
+import {
+  MDBNavbar,
+  MDBContainer,
+  MDBIcon,
+  MDBNavbarNav,
+  MDBNavbarItem,
+  MDBNavbarLink,
+  MDBNavbarToggler,
+  MDBNavbarBrand,
+  MDBCollapse
+} from 'mdb-react-ui-kit';
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
+
+  const [showNavColorSecond, setShowNavColorSecond] = useState(false);
+
+
   return (
-    <header className="nav nav-tabs justify-content-between bg-dark">
-
-      <h5>Steven McCombe</h5>
-
-        <ul className="nav nav-tabs justify-content-end bg-dark ">
-      
-      <li className="nav-item">
-        <a
-          href="#about"
-          onClick={() => handlePageChange('About')}
-          // This is a conditional (ternary) operator that checks to see if the current page is "About"
-          // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
-          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
-        >
-          About
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#portfolio"
-          onClick={() => handlePageChange('Portfolio')}
-          // Check to see if the currentPage is `Portfolio`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
-        >
-          Portfolio
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#contact"
-          onClick={() => handlePageChange('Contact')}
-          // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
-        >
-          Contact
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#Resume"
-          onClick={() => handlePageChange('Resume')}
-          // Check to see if the currentPage is `Resume`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === 'Blog' ? 'nav-link active' : 'nav-link'}
-        >
-          Resume
-        </a>
-        </li>
-    </ul>
-    </header>
-    
+<MDBNavbar expand='lg' dark bgColor='dark'>
+        <MDBContainer fluid>
+          <MDBNavbarBrand >Steven McCombe</MDBNavbarBrand>
+          <MDBNavbarToggler
+            type='button'
+            data-target='#navbarColor02'
+            aria-controls='navbarColor02'
+            aria-expanded='false'
+            aria-label='Toggle navigation'
+            onClick={() => setShowNavColorSecond(!showNavColorSecond)}
+          >
+            <MDBIcon icon='bars' fas />
+          </MDBNavbarToggler>
+          <MDBCollapse show={showNavColorSecond} navbar id='navbarColor02'>
+            <MDBNavbarNav className='me-auto mb-2 mb-lg-0'>
+              <MDBNavbarItem className='active'>
+                <MDBNavbarLink aria-current='page' href='#about' onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>
+                  About
+                </MDBNavbarLink>
+              </MDBNavbarItem>
+              <MDBNavbarItem>
+                <MDBNavbarLink href='#portfolio' onClick={() => handlePageChange('Portfolio')} className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>Portfolio</MDBNavbarLink  >
+              </MDBNavbarItem>
+              <MDBNavbarItem>
+                <MDBNavbarLink href='#contact'onClick={() => handlePageChange('Contact')} className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>Contact</MDBNavbarLink>
+              </MDBNavbarItem>
+              <MDBNavbarItem>
+                <MDBNavbarLink href='#resume'onClick={() => handlePageChange('Resume')} className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>Resume</MDBNavbarLink>
+              </MDBNavbarItem>
+            </MDBNavbarNav>
+          </MDBCollapse>
+        </MDBContainer>
+      </MDBNavbar>
   );
 }
 

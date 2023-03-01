@@ -7,13 +7,13 @@ export default function Card(props) {
   };
 
     return (
-        <div className='d-flex flex-wrap'>
+        <div className='d-flex flex-wrap '>
       {props.projects.map(item => (
         <div className="card m-3 bg-light p-2 shadow-sm" key={item.id} style={cardStyle}>
   <div className="bg-image">
-  <img
+  <img 
     src={ item.image}
-    className="img-fluid h-100 w-100 rounded shadow-sm"
+    className="img-fluid h-100 w-100 rounded shadow-sm "
     alt="Sample"
   />
 </div>
