@@ -4,18 +4,18 @@ import { MDBFooter, MDBIcon } from 'mdb-react-ui-kit';
 
 function Footer() {
   return (
-<MDBFooter bgColor='dark' className='text-center text-lg-start'>
+<MDBFooter bgColor='dark' className='text-center text-lg-start '>
       <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
         <div className='me-5 d-none d-lg-block'>
-          <span className = "color-w">Get connected with us on social networks:</span>
+          <span className = "color-w" >Connect with me on social networks:</span>
         </div>
 
         <div>
-          <a href='www.facebook.com' className='me-4 text-reset'>
+          <a href='https://www.facebook.com/steven.mccombe.96' className='me-4 text-reset'>
             <MDBIcon color='secondary' fab icon='facebook' />
           </a>
           <a href='https://twitter.com/st_mccombe' className='me-4 text-reset '>
-            <MDBIcon color='secondary' fab icon='twitter' />
+            <MDBIcon color='secondary' fab icon='twitter'/>
           </a>
           <a href='mailto:smccombe93@gmail.com' className='me-4 text-reset'>
             <MDBIcon color='secondary' fab icon='google' />

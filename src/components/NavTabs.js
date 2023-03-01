@@ -6,8 +6,10 @@ import "./styles/Theme.css"
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <header className="nav nav-tabs justify-content-between bg-dark">
-      <h5 href="#">Steven McCombe</h5>
-    <ul className="nav nav-tabs justify-content-end bg-dark ">
+
+      <h5>Steven McCombe</h5>
+
+        <ul className="nav nav-tabs justify-content-end bg-dark ">
       
       <li className="nav-item">
         <a
