@@ -17,7 +17,7 @@ No Installation requirments.
 
 ## Usage
 Navigate to the following URL in your browser. 
-(https://steven-mccombe.github.io/portfoliosteven/)
+- https://steven-mccombe.github.io/portfoliosteven/
 
 
 
