@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from "react-bootstrap/Button";
 import { Container, Row } from "react-bootstrap";
-import File from "../assets/STEVEN_MCCOMBE_RESUME2023.pdf";
+import File from "../assets/STEVEN_MCCOMBE_RESUME_2023.pdf";
 import { Document, Page, pdfjs } from "react-pdf";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
