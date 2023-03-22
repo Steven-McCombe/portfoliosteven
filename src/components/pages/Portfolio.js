@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from "../Card";
 import Footer from "../Footer"
-
+//projects
 const projects = [
   {
   id: 1,
