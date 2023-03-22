@@ -5,11 +5,11 @@ import Footer from "../Footer"
 const projects = [
   {
   id: 1,
-  name: 'FLTCHK',
-  description: 'Flight Status Checker, status board that presents the user with real time flight status information for the ten most popular airports in the United States.',
-  image: "https://source.unsplash.com/0IuDrKgK1Fo",
-  repo: 'https://github.com/Steven-McCombe/FLTCHK-TRAVEL-TRACKER',
-  live: 'https://samvillafana.github.io/FLTCHK-TRAVEL-TRACKER/#reload'
+  name: 'Living Lend',
+  description: 'Living Lend is a convenient and affordable solution for those who want to furnish their living spaces without the expense and hassle of purchasing furniture.',
+  image: "https://source.unsplash.com/ljRiZl00n18",
+  repo: 'https://github.com/Steven-McCombe/living-lend',
+  live: 'https://shielded-mesa-50681.herokuapp.com/'
   },
   {
   id: 2,
