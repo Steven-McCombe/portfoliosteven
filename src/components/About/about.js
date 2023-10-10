@@ -29,7 +29,7 @@ export default function About() {
                             <div className="pt-6">
                                 <Link className="px-btn px-btn-theme mr-4 mt-2" to="contactus">Contact Me</Link>
                                 <Link className="px-btn px-btn-dark mr-4 mt-2" to="portfolio">Portfolio</Link>
-                                <Link className="px-btn px-btn-theme mt-2" to="Resume">Download Resume</Link>
+                                <Link className="px-btn px-btn-theme mt-2" to="Resume">Resume</Link>
                             </div>
                         </div>
                     </div>
