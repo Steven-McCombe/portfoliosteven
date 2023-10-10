@@ -1,14 +1,7 @@
-import react from "react";
-import PortfolioContainer from "./components/PortfolioContainer";
+import Krinky from './components/Origin/krinky'
 
 function App() {
-
-    return (
-        <div className = 'bg-dark'>
-            <PortfolioContainer />
-        </div>
-    );
-  }
-
+    return <Krinky/>;
+}
 
 export default App;

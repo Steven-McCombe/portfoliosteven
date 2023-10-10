@@ -1,36 +1,38 @@
 {
-  "name": "portfoliosteven",
+  "name": "krinky",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^6.3.0",
-    "@react-pdf/renderer": "^3.1.6",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "bootstrap": "^5.2.3",
-    "gh-pages": "^5.0.0",
-    "mdb-react-ui-kit": "^5.1.0",
+    "babel-jest": "^29.5.0",
+    "install": "^0.13.0",
+    "jquery": "^3.6.1",
     "react": "^18.2.0",
-    "react-bootstrap": "^2.7.2",
     "react-dom": "^18.2.0",
-    "react-pdf": "^6.2.2",
     "react-scripts": "5.0.1",
+    "react-scroll": "^1.8.8",
+    "react-typing-effect": "^2.0.5",
+    "swiper": "^8.4.7",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://STEVEN-MCCOMBE.github.io/portfoliosteven",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "dev": "tailwindcss -i ./src/main.css -o ./dist/assets/css/main.css --watch"
   },
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
+    ]
+  },
+  "jest": {
+    "transformIgnorePatterns": [
+      "node_modules/(?!(swiper|ssr-window|dom7)/)"
     ]
   },
   "browserslist": {
@@ -44,5 +46,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "postcss-import": "^14.1.0",
+    "postcss-nesting": "^10.1.10",
+    "tailwindcss": "^3.3.2"
   }
 }
