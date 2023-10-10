@@ -23,12 +23,14 @@ function Skill(props) {
 export default function SkillList() {
 
     const skill_list = [
+        {id:{main:'bg-4', icon:'fab fa-js'}, title:'JavaScript' },
+        {id:{main:'bg-3', icon:'fab fa-react'}, title:'React JS' },
         {id:{main:'bg-1', icon:'fab fa-html5'}, title:'HTML' },
         {id:{main:'bg-2', icon:'fab fa-css3'}, title:'CSS' },
-        {id:{main:'bg-3', icon:'fab fa-react'}, title:'React JS' },
-        {id:{main:'bg-4', icon:'fab fa-angular'}, title:'Angular' },
-        {id:{main:'bg-5', icon:'fab fa-apple'}, title:'IOS App' },
-        {id:{main:'bg-6', icon:'fab fa-android'}, title:'App Dev' },
+        {id:{main:'bg-6', icon:'fab fa-node'}, title:'Node' },
+        {id:{main:'bg-6', icon:'fab fa-github'}, title:'Github' },
+        {id:{main:'bg-5', icon:'fab fa-apple'}, title:'React Native' },
+        {id:{main:'bg-6', icon:'fab fa-python'}, title:'Python' },
     ]
 
     return (
