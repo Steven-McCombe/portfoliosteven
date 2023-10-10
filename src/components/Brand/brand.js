@@ -33,30 +33,7 @@ export default function BrandSlider() {
         <>
             <div className="bg-slate-900 py-8">
                 <div className="container">
-                    <Swiper 
-                        spaceBetween={20} 
-                        slidesPerView={5}
-                        breakpoints={{
-                            0: {
-                                slidesPerView: 2,
-                            },
-                            992:{
-                                slidesPerView:3,
-                            },
-                            1024:{
-                                slidesPerView:4,
-                            },
-                            1200:{
-                                slidesPerView:5,
-                            },
-                        }}
-                    >
-                        {
-                            Brand_list.map((val, i)=>{
-                              return <SwiperSlide key={i}><Brand brand_icon={val.brand_icon}/></SwiperSlide>
-                            })
-                        }
-                    </Swiper>
+  \
                 </div>
             </div>
         </>

@@ -18,13 +18,13 @@ export default function Banner() {
                                         speed="100" typingDelay="500" eraseDelay="200" /></span></h1>
                                 <p className="text-[16px] md:text-[20px] mb-[8px] md:mb-[16px]">Based in New York City, NY.</p>
                                 <div className="pt-[10px]">
-                                    <Link className="px-btn px-btn-theme" to="contactus">Let's Start</Link>
+                                    <Link className="px-btn px-btn-theme" to="portfolio">My Projects</Link>
                                 </div>
                             </div>
                         </div>
                         <div className="lg:col-span-6">
                             <div className="home-image text-center">
-                                <img src="img/home-banner.png" title="Banner" alt="Banner" />
+                                <img className="round" src="img/home-banner.png" title="Banner" alt="Banner" />
                             </div>
                         </div>
                     </div>
