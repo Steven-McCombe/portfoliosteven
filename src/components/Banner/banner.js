@@ -13,10 +13,10 @@ export default function Banner() {
                     <div className="grid lg:grid-cols-12 grid-cols-1 items-center">
                         <div className="lg:col-span-6">
                             <div className="text-center lg:text-start mb-[50px] lg:mb-0">
-                                <h6 className="text-black uppercase text-[14px] md:text-[16px] tracking-[2px] font-[600] mb-[20px] md:mb-[30px]">👋, My name is Krinky</h6>
-                                <h1 className="text-black font-[600] text-[40px] lg:text-[60px] xl:text-[70px] leading-[1] mb-[25px] md:mb-[35px]">I'm a <span id="type-it"><ReactTypingEffect text={["Designer", "Developer"]}
+                                <h6 className="text-black uppercase text-[14px] md:text-[16px] tracking-[2px] font-[600] mb-[20px] md:mb-[30px]">👋, My name is Steven</h6>
+                                <h1 className="text-black font-[600] text-[40px] lg:text-[60px] xl:text-[70px] leading-[1] mb-[25px] md:mb-[35px]">I'm a <span id="type-it"><ReactTypingEffect text={["Developer"]}
                                         speed="100" typingDelay="500" eraseDelay="200" /></span></h1>
-                                <p className="text-[16px] md:text-[20px] mb-[8px] md:mb-[16px]">Based in Los Angeles, California.</p>
+                                <p className="text-[16px] md:text-[20px] mb-[8px] md:mb-[16px]">Based in New York City, NY.</p>
                                 <div className="pt-[10px]">
                                     <Link className="px-btn px-btn-theme" to="contactus">Let's Start</Link>
                                 </div>

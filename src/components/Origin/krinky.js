@@ -22,11 +22,9 @@ export default function Krinky() {
                     <Banner/>
                     <BrandSlider/>
                     <About/>
-                    <ServiceList/>
                     <SkillList/>
                     <Intrested />
                     <Work/>
-                    <Testimonial/>
                     <Contact/>
                 </main>
             <Footer/>

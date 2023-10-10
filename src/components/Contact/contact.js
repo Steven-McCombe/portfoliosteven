@@ -12,7 +12,7 @@ export default function Contact() {
                     <div className="col-span-12 lg:col-span-6 ">
                         <div className="p-[25px] md:p-[35px] bg-white">
                             <h6 className="text-[32px] font-[600] text-black mb-[5px]">Get in touch</h6>
-                            <p className="text-[18px] mb-[30px]">Our friendly team would love to hear from you.</p>
+                            <p className="text-[18px] mb-[30px]">Looking forward to hearing from you.</p>
                             <form id="contact-form" method="POST">
                                 <div className="grid grid-cols-12 gap-3">
                                     <div className="col-span-12 md:col-span-6">
@@ -60,7 +60,7 @@ export default function Contact() {
                                     </div>
                                     <div className="col">
                                         <h5>Phone</h5>
-                                        <p>+01 123 654 8096</p>
+                                        <p>+1 (929) 444-9092</p>
                                     </div>
                                 </li>
                                 <li>
@@ -69,7 +69,7 @@ export default function Contact() {
                                     </div>
                                     <div className="col">
                                         <h5>Mail</h5>
-                                        <p>info@domainname.com</p>
+                                        <p>smccombe93@gmail.com</p>
                                     </div>
                                 </li>
                                 <li>
@@ -77,8 +77,8 @@ export default function Contact() {
                                         <i className="fas fa-map-marker-alt"></i>
                                     </div>
                                     <div className="col">
-                                        <h5>Visit My Studio</h5>
-                                        <p>Warnwe Park Streetperrine, <br />FL 33157 New York City</p>
+                                        <h5>Location</h5>
+                                        <p>New York City, <br />New York</p>
                                     </div>
                                 </li>
                             </ul>
