@@ -58,9 +58,9 @@ export default function Work() {
 
     const projectDetails = [
         {
-            title: 'Website Design for Marketing Agency Startup 01',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-            subDescription: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+            title: 'Living Lend - Furniture rental website',
+            description: 'Living Lend is a convenient and affordable solution for those who want to furnish their living spaces without the expense and hassle of purchasing furniture. With Living Lend, users can easily browse a wide selection of furniture styles and pieces, select the items they need, and choose a rental period that best suits their needs.',
+            subDescription: 'Rent the future, live your dreams.',
             images: ['img/project-1.jpg', 'img/project-3.jpg', 'img/project-4.jpg', 'img/project-2.jpg'],
             details: [
                 {
@@ -69,11 +69,7 @@ export default function Work() {
                 },
                 {
                     title: 'Langages',
-                    description: 'PHP, HTML, CSS, JS',
-                },
-                {
-                    title: 'Platform',
-                    description: 'WordPress',
+                    description: 'React, CSS, Javascript, Stripe, Node.js',
                 },
                 {
                     title: 'Country',
@@ -82,6 +78,10 @@ export default function Work() {
                 {
                     title: 'Live URL',
                     description: 'www.example.com',
+                },
+                {
+                    title: 'Repo URL',
+                    description: '',
                 },
             ]
         },
